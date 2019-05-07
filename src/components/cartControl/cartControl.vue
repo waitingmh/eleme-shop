@@ -33,7 +33,6 @@
         } else {
           this.food.count++;
         }
-//        event.srcElement.outerHTML
         this.$emit('increment', event.target); // 子组件通过 $emit触发父组件的方法 increment   还
       },
       decreaseCart(event) {
